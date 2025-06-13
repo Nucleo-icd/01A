@@ -6,7 +6,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     const errorMsg = document.getElementById('errorMsg');
     
     // Credenciais fixas
-    const LOGIN_CORRETO = "ALERGIA";
+    const LOGIN_CORRETO = "AMBULATORIO";
     const SENHA_CORRETA = "ambulatorio";
     
     if (login.toUpperCase() === LOGIN_CORRETO && senha === SENHA_CORRETA) {
